@@ -1,0 +1,140 @@
+
+:root{
+   --vermelho:#e50914;
+   --preto:#141414;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+header .container{
+    /*border: 1px solid;*/
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8em;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    padding-right:20px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: mn;
+    padding: 0 20px 0 20px;
+}  
+
+header nav a:hover{
+    color: #aaa;
+}
+
+/*Atributos do filme principal*/
+
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/capa-house.jpg');
+    height:400px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 15%;
+    /*opacity: 0.3;*/
+   
+}
+
+.filme-principal .titulo{
+    /*margin-bottom: 10%;*/
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*opacity: 0.3;*/
+}
+
+.botao1{
+    background-color: white;
+    border:none;
+    color:black;
+    font-weight:800;
+    border-radius:4px;
+    /*padding-left: 1.8rem;
+    padding-right: 2.6rem;*/
+    padding: 9px 30px;
+    cursor: pointer;
+    transition: .3s ease all;
+   
+}
+
+.botao2{
+    background-color:#6d6d6eb3;
+    border: none;
+    color:#ffffff;
+    font-weight: 800;
+    border-radius: 4px;
+    /*padding-left: 1.8rem;
+    padding-right: 2.6rem;*/
+    padding: 9px 30px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao1:hover{
+    background-color:#000000;
+    color: #ffffff;
+}
+.botao2:hover{
+    background-color:#3a3939;
+    color: #ffffff;
+}
+
+.botao1 i{
+    margin-right: 5px;
+}
+
+.botao2 i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width:400px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
