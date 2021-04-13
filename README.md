@@ -1,2 +1,2 @@
 # Netflix_clone
-Clone pg in Netflix
+Clone da pg inicial da Netflix, projeto parte do Bootcamp da Digital Innovation One, HTML, CSS e um pouco de JS.
